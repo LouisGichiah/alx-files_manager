@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
+const FOLDER_PATH = process.env.FOLDER_PATH || '/tmp/files_manager';
 
 // Load routes
 const routes = require('./routes');
